@@ -1,0 +1,137 @@
+  @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+  
+*{
+margin: 0px;
+
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header{
+display: flex;
+background-color: #000;
+height: 100px;
+img{
+  width: 80px;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+h1{
+  margin: 20px 0 20px 20px;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+}
+}
+
+
+main{
+  width: 1200px;
+  margin: 0px auto 0px auto;
+  padding: 40px 0 40px 0;
+
+  h2{
+    text-align: center;
+    font-size: 2rem;
+
+  }
+  h3{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  p{
+    text-align: center;
+    line-height:  150%;
+    margin: 20px 0 20px 0;
+    font-size: 1.3rem;
+    font-weight: 200;
+  }
+  a{
+    text-decoration: none;
+    h2{
+      color: #000;
+    }
+  }
+}
+
+.grid-home{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 40px 70px 0px 70px; 
+  p{
+    margin: 10px 10px 20px 10px;
+  }
+      *{
+        flex-basis: 300px;        
+        flex-grow: 1;            
+        flex-shrink: 1;         
+    }
+    .card{ 
+    box-shadow:0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; 
+    gap: 15px;
+    }
+    img{
+      width: 100%;
+      object-fit: cover;
+      height: 200px;
+
+    }
+  
+}  
+.card:hover{
+  transform: translatey(-5px);
+}
+
+.redes-sociais{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+    h2{
+      margin-bottom: 30px;
+    }
+  a{
+  border-radius: 15px;
+  color: white;
+  padding: 10px 15px;
+  margin: 0px 5px;
+  text-decoration: none;
+  }
+
+  a:nth-child(1){
+    background-color: #3b5998;
+  }
+   a:nth-child(2){                    /*cor para o instagram*/
+        background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    }
+  a:nth-child(3){
+    background-color: #000;
+  }
+  a:nth-child(4){
+    background-color: #ff0000;
+  }
+    a:nth-child(5){
+    background-color: #25d366;
+  }
+}
+
+
+.voltar{
+  text-align: center;
+  text-decoration: none;
+}
+
+
+footer{
+  background-color: #a8a7a7;
+  text-align: center;
+  padding: 30px 0 30px 0;
+  h3{
+    font-weight: 200;
+  }
+}
+
+
