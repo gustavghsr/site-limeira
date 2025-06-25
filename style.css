@@ -358,19 +358,77 @@ h2{
     flex-basis: 100%;
    }
   }
-
-  .localizacao{
-    
-    /* .l1, 
-    .l2{
+  .municipio{
+    div{
+    flex-direction: column;
       align-items: center;
-      iframe{
-        width: 50%;
+
+      img{
+        margin-top: 40px;
+        text-align: start;
       }
-    }  */
+    }
+    .m2{
+      display: flex;
+      flex-direction: column-reverse;
+    }
   }
 
+  .localizacao{
+    width: 100%;
+    .l1{
+      flex-direction: column;
+      align-items: center;
 
+    }
+    .l2{
+      flex-direction: column;
+      align-items: center;
+      p{
+        margin-left: 10%;
+      }
+      iframe{
+
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+    }
+  }
+
+.turismo{
+  width: 100%;
+  div{
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+}
+
+.comercio{
+  width: 100%;
+  .com1{
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    P{
+      width: 35%;
+    }
+    iframe{
+      width: 65%;
+    }
+  }
+  p{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+.esporte{
+  iframe{
+    width: 80%;
+    height: 40vh;
+  }
+}
 
 
 
