@@ -60,10 +60,13 @@ main{
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-  margin: 40px 70px 0px 70px; 
   border-radius: 15px;
   p{
     margin: 10px 10px 20px 10px;
+    color: #16194d;
+  }
+  h3{
+        color: #000;
   }
       *{
         flex-basis: 300px;        
@@ -141,9 +144,9 @@ footer{
 
 
 .municipio{
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 50px;
+  /* margin-left: 50px;
+  margin-right: 50px; */
+  margin-top: 40px;
   .m1{
   display: flex;
   justify-content: center;
@@ -362,10 +365,12 @@ h2{
     div{
     flex-direction: column;
       align-items: center;
-
       img{
         margin-top: 40px;
         text-align: start;
+      }
+      p{
+        width: 100%;
       }
     }
     .m2{
@@ -379,19 +384,24 @@ h2{
     .l1{
       flex-direction: column;
       align-items: center;
-
+      p{
+        width: 100%;
+        margin-left: 10px;
+      }
+      iframe{
+        width: 90%;
+        height: 30vh;
+      }
     }
     .l2{
       flex-direction: column;
       align-items: center;
-      p{
-        margin-left: 10%;
-      }
       iframe{
-
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
+        width: 100%;
+        height: 40vh;
+      }
+      p{
+        margin-left: 10PX;
       }
     }
   }
@@ -400,27 +410,35 @@ h2{
   width: 100%;
   div{
   flex-direction: column;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+  .reverter{
+    flex-direction: column-reverse;
+  }
+  h2{
+    margin-left: 10px;
   }
 }
 
 .comercio{
   width: 100%;
   .com1{
-    align-items: center;
-    margin-left: 20px;
-    margin-right: 20px;
+    flex-direction: column;
     P{
-      width: 35%;
+      text-align: start;
     }
     iframe{
-      width: 65%;
+      width: 100%;
+    }
+    ul{
+      width: 100%;
+      margin-right: 10px;
     }
   }
   p{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 .esporte{
@@ -428,7 +446,35 @@ h2{
     width: 80%;
     height: 40vh;
   }
+  P{
+    margin-left: 10%;
+  }
 }
+.redes-sociais{
+  display: flex;
+  flex-direction: column;
+  a{
+    flex-basis: 100%;
+    margin-bottom: 2%;
+  }
+}
+.card{
+  width: 100%;
+}
+
+.descricao{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.tabelas{
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+
 
 
 
